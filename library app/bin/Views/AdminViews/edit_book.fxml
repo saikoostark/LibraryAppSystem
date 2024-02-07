@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" prefHeight="688.0" prefWidth="795.0" style="-fx-background-color: #f9f9f9;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox alignment="TOP_CENTER" prefHeight="299.0" prefWidth="795.0" spacing="14.0" style="-fx-background-color: #fff; -fx-background-radius: 50;" VBox.vgrow="ALWAYS">
+         <VBox.margin>
+            <Insets bottom="80.0" left="50.0" right="50.0" top="80.0" />
+         </VBox.margin>
+         <children>
+            <HBox alignment="CENTER" layoutX="30.0" layoutY="30.0" prefHeight="68.0" prefWidth="655.0" spacing="80.0">
+               <children>
+                  <TextField disable="true" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" promptText="ID" styleClass="transparent-border" HBox.hgrow="ALWAYS">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </TextField>
+                  <TextField layoutX="31.0" layoutY="40.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" promptText="Title" styleClass="transparent-border">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </TextField>
+                  <TextField maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" promptText="Authors" styleClass="transparent-border" HBox.hgrow="ALWAYS">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </TextField>
+               </children>
+               <padding>
+                  <Insets bottom="30.0" left="20.0" right="20.0" top="30.0" />
+               </padding>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="68.0" prefWidth="655.0" spacing="80.0">
+               <children>
+                  <TextField maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" promptText="Puplishers" styleClass="transparent-border" HBox.hgrow="ALWAYS">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </TextField>
+                  <TextField maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" promptText="ISBN" styleClass="transparent-border" HBox.hgrow="ALWAYS">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </TextField>
+               </children>
+               <padding>
+                  <Insets bottom="30.0" left="20.0" right="20.0" top="30.0" />
+               </padding>
+            </HBox>
+            <HBox alignment="CENTER" layoutX="30.0" layoutY="30.0" prefHeight="68.0" prefWidth="655.0" spacing="80.0">
+               <children>
+                  <TextField maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" promptText="Pages" styleClass="transparent-border" HBox.hgrow="ALWAYS">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </TextField>
+                  <DatePicker promptText="Book creation" styleClass="transparent-border" />
+                  <TextField promptText="Copies" styleClass="transparent-border">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </TextField>
+               </children>
+               <padding>
+                  <Insets bottom="30.0" left="20.0" right="20.0" top="30.0" />
+               </padding>
+            </HBox>
+            <HBox alignment="CENTER" layoutX="30.0" layoutY="30.0" prefHeight="94.0" prefWidth="655.0" spacing="80.0">
+               <children>
+                  <HBox prefHeight="44.0" prefWidth="299.0" spacing="15.0" HBox.hgrow="ALWAYS">
+                     <children>
+                        <Button mnemonicParsing="false" prefHeight="33.0" prefWidth="82.0" styleClass="btn" text="Choose" textFill="WHITE">
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                        </Button>
+                        <TextField disable="true" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" promptText="Cover" styleClass="transparent-border">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </TextField>
+                     </children>
+                     <padding>
+                        <Insets left="14.0" />
+                     </padding>
+                  </HBox>
+                  <TextField maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" promptText="Categorys" styleClass="transparent-border" HBox.hgrow="ALWAYS">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </TextField>
+               </children>
+               <padding>
+                  <Insets bottom="30.0" left="20.0" right="20.0" top="30.0" />
+               </padding>
+            </HBox>
+            <HBox alignment="CENTER" layoutX="30.0" layoutY="297.0" prefHeight="78.0" prefWidth="655.0" spacing="80.0">
+               <padding>
+                  <Insets bottom="20.0" left="150.0" right="150.0" top="20.0" />
+               </padding>
+               <children>
+                  <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" styleClass="btn" text="Save" textFill="WHITE" HBox.hgrow="ALWAYS">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="312.0" layoutY="40.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" styleClass="btn" text="Clear" textFill="WHITE" HBox.hgrow="ALWAYS">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+         </children>
+         <padding>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+         </padding>
+      </VBox>
+   </children>
+   <stylesheets>
+      <URL value="@../../Css/home.css" />
+      <URL value="@../../Css/login.css" />
+   </stylesheets>
+</VBox>
